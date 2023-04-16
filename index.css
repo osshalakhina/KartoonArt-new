@@ -1,0 +1,214 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 85%, 0.836);
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #24325b;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.title {
+  text-align: center;
+  margin: 50px 400px;
+}
+
+.landing {
+  height: 480px;
+}
+
+.images {
+  height: 480px;
+}
+
+.network {
+  height: 400px;
+}
+
+.black-white {
+  margin-left: 20px;
+}
+
+.image-block {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.image {
+  border: 0.75px solid black;
+  background-color: rgba(255, 255, 255, 0.299);
+  border-radius: 3px;
+  height: 250px;
+}
+
+.app {
+  height: 300px;
+}
+
+@media only screen and (max-width: 2360px) {
+  .title {
+    margin: 50px 100px;
+  }
+
+  .images {
+    height: 350px;
+  }
+
+  .image {
+    height: 220px;
+  }
+
+  .network {
+    height: 400px;
+  }
+
+  .app {
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width: 1345px) {
+  .title {
+    margin: 50px 70px;
+  }
+
+  .landing {
+    height: 460px;
+  }
+
+  .images {
+    height: 250px;
+  }
+
+  .image {
+    height: 200px;
+  }
+
+  .network {
+    height: 400px;
+  }
+
+  .app {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 965px) {
+  .title {
+    margin: 50px 50px;
+  }
+
+  .landing {
+    height: 340px;
+  }
+
+  .images {
+    height: 180px;
+  }
+
+  .network {
+    height: 300px;
+  }
+
+  .image {
+    height: 200px;
+  }
+
+  .app {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .logo {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .title {
+    margin: 20px 20px;
+  }
+
+  .landing {
+    height: 200px;
+  }
+
+  .images {
+    height: 220px;
+  }
+
+  .network {
+    height: 180px;
+  }
+
+  .black-white {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .image {
+    height: 110px;
+  }
+
+  .app {
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .title {
+    margin: 20px 10px;
+  }
+
+  .landing {
+    height: 170px;
+  }
+
+  .images {
+    height: 190px;
+  }
+
+  .network {
+    height: 150px;
+  }
+
+  .black-white {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .image {
+    height: 90px;
+  }
+
+  .app {
+    height: 230px;
+  }
+}
